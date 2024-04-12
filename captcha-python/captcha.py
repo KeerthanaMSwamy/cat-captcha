@@ -8,7 +8,7 @@ from captcha.image import ImageCaptcha
 import random
 
 rand = random.randint(1000,9999)
-cap = ImageCaptcha(width=100, height=100) # giving dimensions for the image
+cap = ImageCaptcha(width=300, height=300) # giving dimensions for the image
 # cap = cap.generate_image('Keerthana') 
 # cap = cap.create_captcha_image('Keerthana', color='white', background='black')#the words or numbers or alphanum you give inside the brackets will be converted to captcha
 
